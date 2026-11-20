@@ -28,13 +28,11 @@ Remotes: welch-lab/liger,
     cole-trapnell-lab/monocle3,
     mojaveazure/seurat-disk,
     powellgenomicslab/Nebulosa,
-    atakanekiz/CIPR-Package,
-    prabhakarlab/Banksy
+    atakanekiz/CIPR-Package
 Depends:
     R (>= 3.5.0)
 biocViews:
 Imports:
-    Banksy,
     BiocManager,
     cowplot,
     ggplot2,
@@ -51,7 +49,6 @@ Collate:
     'internal.R'
     'alevin.R'
     'alra.R'
-    'banksy.R'
     'cellbrowser.R'
     'cogaps.R'
     'conos.R'
